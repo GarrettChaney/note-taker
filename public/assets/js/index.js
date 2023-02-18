@@ -70,6 +70,7 @@ const handleNoteSave = () => {
   const newNote = {
     title: noteTitle.value,
     text: noteText.value,
+  
   };
   saveNote(newNote).then(() => {
     getAndRenderNotes();
@@ -161,7 +162,6 @@ const renderNoteList = async (notes) => {
   jsonNotes.forEach((note) => {
     const li = createLi(note.title);
     li.dataset.note = JSON.stringify(note);
-
     noteListItems.push(li);
   });
 
