@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 //* routing files
-const api = require('./routes/api');
+// const api = require('./routes/api');
 const html = require('./routes/html');
 
 //* port logic
@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 
 //* route handling/serving
 app.use(express.static('public'));
-app.use('/api', api);
+// app.use('/api', api);
 app.use('/', html)
 
 //* listener
