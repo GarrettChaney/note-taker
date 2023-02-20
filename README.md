@@ -38,7 +38,7 @@
  
  *Usage information for project:*
  
-1. Navigate to the deployed website hosted on Heroku servers via: 
+1. Navigate to the deployed website hosted on Heroku servers via: https://gbcpursuits-note-taker.herokuapp.com/
 
  ## Contributing
  
